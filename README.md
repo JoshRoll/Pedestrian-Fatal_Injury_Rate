@@ -18,7 +18,7 @@ including fatal and severe injuries and total pedestrain injuries.  Two periods 
 the script summarizes measures for injuries, population, and travel and built environmental measures are created and charted. Lasly, dynamic maps are created that utilize the leaflet package to see how the REII appears 
 spatially and also to explore the other data elements.  
 
-download_prepare_census_population_data.r
+## download_prepare_census_population_data.r
 This script uses some R packages to automatically access state level Census population data for all states.  These data include the population by age, gener and race which are necessary to calculate reliable
 age-adjusted traffic injury death rates.  You will need to sign up for a free Census API key.  
 
