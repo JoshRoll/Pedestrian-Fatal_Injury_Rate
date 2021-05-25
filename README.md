@@ -11,7 +11,7 @@ Two scripts are available in this repository.  The script Analyze_FARS_Race_prod
 any of the 50 state by toggling a few inputs (see in-line comments).  This script calculates confidence intervals so users can communicate the uncertainty in the measured outcomes.  This script also aggregates  Black, Indigenous, 
 and People of Color race categories into a single group in order to measure the injury rate with more certainty than what is possible with disaggregate BIPOC groups (at least for Oregon).  
 
-## Analyze_FARS_Race_prod.r
+## analyze_fars_race_prod.r
 This script combines FARS person level fatal death data with Census population data to calculate age-adjusted population-based fatal injury rates by racial category.  The analysis uses the US populationa as the standard population 
 to weight the rates by age cohort in order to make the composite rates by race comparable across the US.  A composite BIPOC rate is constructed to improve confidence in the point estimates for these non-White racial categories since 
 some disaggegate BIPOC groups have small numbers of either population, injuries, or both.  
