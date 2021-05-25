@@ -12,14 +12,14 @@ any of the 50 state by toggling a few inputs (see in-line comments).  This scrip
 and People of Color race categories into a single group in order to measure the injury rate with more certainty than what is possible with disaggregate BIPOC groups (at least for Oregon).  
 
 ## Analyze_FARS_Race_prod.r
+This script combines FARS person level fatal death data with Census population data to calculate age-adjusted population-based fatal injury rates by racial category.  The analysis uses the US populationa as the standard population 
+to weight the rates by age cohort in order to make the composite rates by race comparable across the US.  A composite BIPOC rate is constructed to improve confidence in the point estimates for these non-White racial categories since 
+some disaggegate BIPOC groups have small numbers of either population, injuries, or both.  
 
 
 ## download_prepare_census_population_data.r
-This script uses some R packages to automatically access state level Census population data for all states.  These data include the population by age, gener and race which are necessary to calculate reliable
+This script uses availablr R packages to automatically access state level Census population data for all states.  These data include the population by age, gener and race which are necessary to calculate reliable
 age-adjusted traffic injury death rates.  You will need to sign up for a free Census API key.  
-
-# Data
-
 
 # Contact
 Principle Investigator: Josh Roll  josh.f.roll@odot.state.or.us  
