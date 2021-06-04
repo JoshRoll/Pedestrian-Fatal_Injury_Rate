@@ -15,7 +15,8 @@ this analysis.  Other analyses would likely require preparing the data in differ
 a separate file becuase NHTSA now takes multiple races, if reported on death certificate, and includes them in this new race table.  This script only uses the first reported race from the race table to be consistent with past data but for 
 multi-race persons these data would be need to be processed differently.  This script works in 3 steps:  
 ### Step 1 -  Download RAW Data - Download zipped files and unzip them to local drive
-###
+### Step 2 -  Process Person table records and prepare for analysis
+### Step 3 -  Finalize formatting to make merging with race and age cohort Census data simple
 
 
 ## analyze_fars_race_prod.r
