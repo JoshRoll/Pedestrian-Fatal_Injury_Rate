@@ -5,7 +5,8 @@ https://www.oregon.gov/odot/Safety/Documents/Pedestrian_Safety_and_Social_Equity
 The data and scripts in this repository gather data from Fatal Accident Reporting System (FARS) and Census data and then calculates an age-adjusted population-based pedestrian death rates for each represented racial group to assess disparities.  These rates use the US population as the standard population and employ five years population data using person-years as the denominator.  The analysis script also calculates population-based injury rates for other modes including bicycle and motor vehicle.
 
 # Script Details  
-Two scripts are available in this repository.  The script Analyze_FARS_Race_prod.r combines the FARS data and Census population data to analyze the rate of injury per 100,000 person-years.  The script can be changed to analyze
+Three scripts are available in this repository.  The download_format_FARS_data.r script downloads and prepares FARS data for injury rate analysis.  The download_prepare_census_population_data.r script uses R's Census API tools to download 
+and prepare Census data by age and race for states. The script analyze_FARS_race.r combines the FARS data and Census population data to analyze the rate of injury per 100,000 person-years.  The script can be changed to analyze
 any of the 50 state by toggling a few inputs (see in-line comments).  This script calculates confidence intervals so users can communicate the uncertainty in the measured outcomes.  This script also aggregates  Black, Indigenous, 
 and People of Color race categories into a single group in order to measure the injury rate with more certainty than what is possible with disaggregate BIPOC groups (at least for Oregon).  
 
@@ -16,8 +17,11 @@ a separate file becuase NHTSA now takes multiple races, if reported on death cer
 multi-race persons these data would be need to be processed differently.  This script works in 3 steps:  
 ### Step 1 -  Download RAW Data - Download zipped files and unzip them to local drive
 ### Step 2 -  Process Person table records and prepare for analysis
-### Step 3 -  Finalize formatting to make merging with race and age cohort Census data simple
+### Step 3 -  Finalize formatting to make merging with race and age cohort Census data simple  
 
+## download_prepare_census_population_data.r  
+This script uses R's Census API tools to download and format state level population data for use in calculating age-adjusted population-based fatal injury rates for traffic injury. If other Census data elements are of interest beyond population
+by age and race this script would need to be modified.   
 
 ## analyze_fars_race_prod.r
 This script combines FARS person level fatal death data with Census population data to calculate age-adjusted population-based fatal injury rates by racial category.  The analysis uses the US population as the standard population to 
