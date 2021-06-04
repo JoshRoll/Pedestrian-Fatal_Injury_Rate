@@ -27,3 +27,6 @@ by age and race this script would need to be modified.
 This script combines FARS person level fatal death data with Census population data to calculate age-adjusted population-based fatal injury rates by racial category.  The analysis uses the US population as the standard population to 
 weight the rates by age cohort in order to make the composite rates by race comparable across the US.  A composite BIPOC rate is constructed to improve confidence in the point estimates for these non-White racial categories since some disaggregate BIPOC groups have small numbers of either population, injuries, or both.  
 
+
+![Data Explorer](Ped_Rates_2014-2018.png)
+![Data Explorer](Ped_Rates_Over_Time.png)
