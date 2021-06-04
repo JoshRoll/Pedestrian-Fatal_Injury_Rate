@@ -29,7 +29,7 @@ weight the rates by age cohort in order to make the composite rates by race comp
 
 ## Results  
 Information featured in charts below are examples of information prodcued by this repository.  Repository materials are capable of producing other information on rates for other modes (bicycle, motor vehicle).
-### Fatal pedestrain injury rates 2014-2018
+### Fatal Pedestrian Injury Rates 2014-2018
 ![Ped_Rates_2014-2018](www/Ped_Rates_2014-2018.png)  
-### Fatal pedestrain injury rates over time
+### Fatal Pedestrian Injury Rates Over Time
 ![Ped_Rates_2014-2018](www/Ped_Rates_Over_Time.png)  
