@@ -28,5 +28,4 @@ This script combines FARS person level fatal death data with Census population d
 weight the rates by age cohort in order to make the composite rates by race comparable across the US.  A composite BIPOC rate is constructed to improve confidence in the point estimates for these non-White racial categories since some disaggregate BIPOC groups have small numbers of either population, injuries, or both.  
 
 
-![Ped_Rates_2014-2018](Ped_Rates_2014-2018.png)
-![Data Explorer](Ped_Rates_Over_Time.png)
+![Ped_Rates_2014-2018](www/Ped_Rates_2014-2018.png)  
