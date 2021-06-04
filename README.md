@@ -28,7 +28,7 @@ This script combines FARS person level fatal death data with Census population d
 weight the rates by age cohort in order to make the composite rates by race comparable across the US.  A composite BIPOC rate is constructed to improve confidence in the point estimates for these non-White racial categories since some disaggregate BIPOC groups have small numbers of either population, injuries, or both.  
 
 ## Results  
-Information featured in charts below are examples of information prodcued by this repository.  Repository materials are capable of producing other information on rates for other modes (bicycle, motor vehicle).
+Information featured in charts below are examples of information produced by this repository.  Repository materials are capable of producing other information on rates for other modes (bicycle, motor vehicle).
 ### Fatal Pedestrian Injury Rates 2014-2018
 ![Ped_Rates_2014-2018](www/Ped_Rates_2014-2018.png)  
 ### Fatal Pedestrian Injury Rates Over Time
