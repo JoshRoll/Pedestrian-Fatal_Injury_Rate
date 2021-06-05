@@ -15,9 +15,9 @@ This script downloads raw FARS data from NHTSA FTP site and formats it for analy
 this analysis.  Other analyses would likely require preparing the data in different way but this should get you started. Starting in 2019 NHTSA stopped putting the Race data element in the person records and you know have to join it from 
 a separate file becuase NHTSA now takes multiple races, if reported on death certificate, and includes them in this new race table.  This script only uses the first reported race from the race table to be consistent with past data but for 
 multi-race persons these data would be need to be processed differently.  This script works in 3 steps:  
-### Step 1 -  Download RAW Data - Download zipped files and unzip them to local drive
-### Step 2 -  Process Person table records and prepare for analysis
-### Step 3 -  Finalize formatting to make merging with race and age cohort Census data simple  
+### Step 1 -  Download Raw Data - Download zipped files and unzip them to local drive
+### Step 2 -  Process Person Table Records - Prepare person table data for analysis
+### Step 3 -  Finalize Formatting - Make final preprarations to ease merging with race and age cohort Census data elements
 
 ## download_prepare_census_population_data.r  
 This script uses R's Census API tools to download and format state level population data for use in calculating age-adjusted population-based fatal injury rates for traffic injury. If other Census data elements are of interest beyond population
